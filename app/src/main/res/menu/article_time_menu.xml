@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/timeGroupMenu">
+
+    </group>
+    <item
+        android:id="@+id/todayMenu"
+        android:title="Today"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/weekMenu"
+        android:title="One Week"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/monthMenu"
+        android:title="One Month"
+        app:showAsAction="never" />
+</menu>
